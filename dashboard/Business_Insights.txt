@@ -1,0 +1,39 @@
+
+RETAILPULSE - BUSINESS INSIGHTS REPORT
+Generated from UCI Online Retail Dataset (541,909 rows)
+
+DATASET OVERVIEW
+Total Revenue       : GBP 8,887,208.89
+Total Orders        : 18,532
+Unique Customers    : 4,338
+Unique Products     : 3,665
+Avg Order Value     : GBP 479.56
+
+INSIGHT 1 - REVENUE SEASONALITY
+Peak month    : 2011-11 -> GBP 1,156,206
+Lowest month  : 2011-02 -> GBP 446,085
+Business action: Increase stock and marketing 6 weeks
+before peak month every year.
+
+INSIGHT 2 - GEOGRAPHIC CONCENTRATION RISK
+United Kingdom drives 82.0% of all revenue.
+Business action: Diversify into Netherlands and
+Germany to reduce single-market dependency.
+
+INSIGHT 3 - STAR PRODUCT
+Top product   : PAPER CRAFT , LITTLE BIRDIE
+Revenue       : GBP 168,469.60
+Business action: Always keep in stock. Bundle with
+slower products to lift average order value.
+
+INSIGHT 4 - CUSTOMER LOYALTY GAP
+65.6% of customers are repeat buyers.
+34.4% bought only once.
+Business action: A loyalty programme converting 10% of
+one-time buyers would add GBP 71,598 in revenue.
+
+INSIGHT 5 - PEAK TRADING WINDOW
+Best day  : Thursday
+Peak hour : 12:00
+Business action: Target campaigns on Thursday
+mornings for maximum customer response.
