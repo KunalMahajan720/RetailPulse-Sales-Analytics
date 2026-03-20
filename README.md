@@ -79,8 +79,6 @@ pip install pandas numpy matplotlib seaborn prophet sqlalchemy pymysql openpyxl
 ```
 ## Dashboard Preview
 
-## Dashboard Preview
-
 ### Page 1 — Executive Summary
 ![Executive Summary](dashboard/screenshots/Page1_executive.png)
 
