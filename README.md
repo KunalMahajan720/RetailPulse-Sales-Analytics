@@ -13,7 +13,7 @@ Power BI business intelligence dashboard.
 
 ## Tools & Technologies
 | Tool | Purpose |
-
+|------|---------|
 | Python (Pandas, NumPy) | Data cleaning & EDA |
 | Matplotlib & Seaborn | Exploratory visualizations |
 | MySQL | Data storage & SQL analysis |
