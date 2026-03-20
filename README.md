@@ -1,17 +1,17 @@
-﻿# RetailPulse — Retail Sales Analytics & BI Dashboard
+# RetailPulse — Retail Sales Analytics & BI Dashboard
 
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
 ![SQL](https://img.shields.io/badge/MySQL-8.0-orange)
 ![PowerBI](https://img.shields.io/badge/Power%20BI-Dashboard-yellow)
 ![Dataset](https://img.shields.io/badge/Dataset-541%2C909%20rows-green)
 
-# Project Overview
+## Project Overview
 End-to-end retail analytics project analyzing 541,909 transactions 
 from a UK-based online retailer (2010–2011). Built a complete 
 data pipeline from raw Excel data to an interactive 3-page 
 Power BI business intelligence dashboard.
 
-# Tools & Technologies
+## Tools & Technologies
 | Tool | Purpose |
 
 | Python (Pandas, NumPy) | Data cleaning & EDA |
@@ -21,14 +21,14 @@ Power BI business intelligence dashboard.
 | Facebook Prophet | 90-day sales forecasting |
 | GitHub | Version control |
 
-# Dataset
+## Dataset
 - **Source:** UCI Online Retail Dataset
 - **Size:** 541,909 transactions → cleaned to 392,692
 - **Period:** December 2010 – December 2011
 - **Link:** https://archive.ics.uci.edu/dataset/352/online+retail
 
-# Project Structure
-
+## Project Structure
+```
 RetailPulse/
 ├── notebooks/
 │   ├── 01_data_loading.ipynb
@@ -44,8 +44,9 @@ RetailPulse/
 ├── dashboard/
 │   └── screenshots/
 └── README.md
+```
 
-# Key Steps
+## Key Steps
 1. **Data Loading** — Loaded 541,909 rows from UCI Excel file
 2. **Data Cleaning** — Removed duplicates, nulls, cancellations. 
    Engineered 6 new time-based features
@@ -58,21 +59,21 @@ RetailPulse/
 6. **Forecasting** — 90-day revenue forecast using 
    Facebook Prophet with 95% confidence intervals
 
-# Key Business Insights
+## Key Business Insights
 1. **Peak month** — November 2011 was highest revenue month
-2. **Geographic risk** — UK drives 83% of revenue 
-   creating single-market dependency
+2. **Geographic risk** — UK drives 83% of revenue creating single-market dependency
 3. **Customer loyalty gap** — 91.6% repeat vs 8.4% one-time buyers
-4. **Peak trading window** — Thursday 10am–12pm is optimal 
-   for promotions and campaigns
+4. **Peak trading window** — Thursday 10am–12pm is optimal for promotions and campaigns
 5. **Forecasting** — Projected £X revenue over next 90 days
 
-# How to Run
+## How to Run
+```bash
 # Clone the repo
 git clone https://github.com/KunalMahajan720/RetailPulse-Sales-Analytics
 
 # Install dependencies
 pip install pandas numpy matplotlib seaborn prophet sqlalchemy pymysql openpyxl
 
-## Connect with Me
-- LinkedIn: linkedin.com/in/kunalmahajank2499m
+# Run notebooks in order
+# 01 → 02 → 03 → 04 → 05 → 06
+```
