@@ -77,3 +77,13 @@ pip install pandas numpy matplotlib seaborn prophet sqlalchemy pymysql openpyxl
 # Run notebooks in order
 # 01 → 02 → 03 → 04 → 05 → 06
 ```
+## Dashboard Preview
+
+### Page 1 — Executive Summary
+![Executive Summary](dashboard/screenshots/page1_executive.png)
+
+### Page 2 — Sales Analysis
+![Sales Analysis](dashboard/screenshots/page2_sales.png)
+
+### Page 3 — Customer Intelligence
+![Customer Intelligence](dashboard/screenshots/page3_customers.png)
